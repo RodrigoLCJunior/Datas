@@ -1,6 +1,6 @@
 # Datas
 
-Antes das funções foi criado 2 variaves de data para serem ultilizados. Foi ultilizado new Date(), para as datas.
+Antes das funções, foi criado 2 variaves de data para serem ultilizados. Foi ultilizado new Date(), para as datas.
 
 *Função dataMaior: Ela recebe as duas datas como parametros. Dentro da função comparo as datas entre elas e retorna a maior delas.
 
