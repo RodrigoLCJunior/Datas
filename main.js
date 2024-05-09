@@ -19,12 +19,10 @@ var resultado = dataMaior(data, data2);
 console.log(resultado);
 
 function diferencaData (data, data2){
-
-     if (data < data2){
-         var diferenca = data - data2;
-         return diferenca;
-     } 
-     return 0;
+     var diferenca = data2 - data;
+      
+     var diferencaDias = diferenca / (1000 * 60 * 60 * 24);
+     return diferencaDias;
 }
 
 var subtracao = diferencaData(data, data2);
